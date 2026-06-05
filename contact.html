@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akademi - User Dashboard</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="dashboard-container">
+        
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="logo-icon">A</span> Akademi
+            </div>
+            <nav class="nav-menu">
+                <a href="#"><i class="fa-solid fa-house"></i> Dashboard</a>
+                <a href="#"><i class="fa-solid fa-graduation-cap"></i> Students</a>
+                <a href="#"><i class="fa-solid fa-chalkboard-user"></i> Teachers</a>
+                <a href="#"><i class="fa-solid fa-calendar-days"></i> Event</a>
+                <a href="#"><i class="fa-solid fa-wallet"></i> Finance</a>
+                <a href="#"><i class="fa-solid fa-utensils"></i> Food</a>
+                <a href="#" class="active"><i class="fa-solid fa-user"></i> User</a>
+                <a href="#"><i class="fa-solid fa-comment-dots"></i> Chat</a>
+                <a href="#"><i class="fa-solid fa-chart-line"></i> Lastest Activity</a>
+            </nav>
+            <div class="sidebar-footer">
+                <p>Akademi - School Admission Dashboard</p>
+                <p>Made with ❤️ by Peterdraw</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="main-header">
+                <h2>User Dashboard</h2>
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search here...">
+                </div>
+            </header>
+
+            <section class="profile-banner">
+                <div class="banner-bg">
+                    <div class="circle-orange"></div>
+                    <div class="circle-yellow"></div>
+                </div>
+                <div class="profile-info-wrapper">
+                    <div class="profile-avatar"></div>
+                    <div class="profile-details">
+                        <div class="profile-header-row">
+                            <h3>Nabila Azalea</h3>
+                            <i class="fa-solid fa-ellipsis-h dots-icon"></i>
+                        </div>
+                        <p class="role">Admin</p>
+                        <p class="location"><i class="fa-solid fa-location-dot"></i> Jakarta, Indonesia</p>
+                        
+                        <div class="contact-meta">
+                            <div class="meta-item">
+                                <div class="icon-box phone-box"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <span>Phone</span>
+                                    <strong>+12 345 6789 0</strong>
+                                </div>
+                            </div>
+                            <div class="meta-item">
+                                <div class="icon-box email-box"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <span>Email</span>
+                                    <strong>jordan@mail.com</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="two-column-grid">
+                <section class="card-box">
+                    <div class="card-header">
+                        <div>
+                            <h3>Contacts</h3>
+                            <span class="sub-text">You have 741 contacts</span>
+                        </div>
+                        <button class="add-btn"><i class="fa-solid fa-plus"></i></button>
+                    </div>
+                    <div class="box-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search here...">
+                    </div>
+                    <div class="list-container">
+                        <div class="list-item">
+                            <div class="item-avatar"></div>
+                            <div class="item-info">
+                                <h4>Samantha William</h4>
+                                <p>Class VII-A</p>
+                            </div>
+                            <button class="action-btn"><i class="fa-regular fa-envelope"></i></button>
+                        </div>
+                        <div class="list-item">
+                            <div class="item-avatar"></div>
+                            <div class="item-info">
+                                <h4>Tony Soap</h4>
+                                <p>Class VII-A</p>
+                            </div>
+                            <button class="action-btn active-btn"><i class="fa-solid fa-envelope"></i></button>
+                        </div>
+                        <div class="list-item">
+                            <div class="item-avatar"></div>
+                            <div class="item-info">
+                                <h4>Karen Hope</h4>
+                                <p>Class VII-A</p>
+                            </div>
+                            <button class="action-btn"><i class="fa-regular fa-envelope"></i></button>
+                        </div>
+                        <div class="list-item">
+                            <div class="item-avatar"></div>
+                            <div class="item-info">
+                                <h4>Jordan Nico</h4>
+                                <p>Class VII-B</p>
+                            </div>
+                            <button class="action-btn"><i class="fa-regular fa-envelope"></i></button>
+                        </div>
+                        <div class="list-item">
+                            <div class="item-avatar"></div>
+                            <div class="item-info">
+                                <h4>Nadila Adja</h4>
+                                <p>Class VII-C</p>
+                            </div>
+                            <button class="action-btn"><i class="fa-regular fa-envelope"></i></button>
+                        </div>
+                    </div>
+                    <button class="view-more-btn">View More</button>
+                </section>
+
+                <section class="card-box">
+                    <div class="card-header">
+                        <h3>Messages</h3>
+                    </div>
+                    <div class="box-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search here...">
+                    </div>
+                    <div class="list-container">
+                        <div class="list-item">
+                            <div class="item-avatar"></div>
+                            <div class="item-info">
+                                <h4>Samantha William</h4>
+                                <p class="truncate">Lorem ipsum dolor sit amet...</p>
+                            </div>
+                            <div class="msg-meta">
+                                <span class="time">12:45 PM</span>
+                                <span class="badge">2</span>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="item-avatar"></div>
+                            <div class="item-info">
+                                <h4>Tony Soap</h4>
+                                <p class="truncate">Lorem ipsum dolor sit amet...</p>
+                            </div>
+                            <div class="msg-meta">
+                                <span class="time">12:45 PM</span>
+                                <span class="badge">2</span>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="item-avatar"></div>
+                            <div class="item-info">
+                                <h4>Karen Hope</h4>
+                                <p class="truncate">Lorem ipsum dolor sit amet...</p>
+                            </div>
+                            <div class="msg-meta">
+                                <span class="time">12:45 PM</span>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="item-avatar"></div>
+                            <div class="item-info">
+                                <h4>Jordan Nico</h4>
+                                <p class="truncate">Lorem ipsum dolor sit amet...</p>
+                            </div>
+                            <div class="msg-meta">
+                                <span class="time">12:45 PM</span>
+                                <span class="badge">2</span>
+                            </div>
+                        </div>
+                        <div class="list-item">
+                            <div class="item-avatar"></div>
+                            <div class="item-info">
+                                <h4>Nadila Adja</h4>
+                                <p class="truncate">Lorem ipsum dolor sit amet...</p>
+                            </div>
+                            <div class="msg-meta">
+                                <span class="time">12:45 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="view-more-btn">View More</button>
+                </section>
+            </div>
+        </main>
+
+        <aside class="right-sidebar">
+            <header class="right-header">
+                <div class="header-icons">
+                    <div class="icon-circle"><i class="fa-regular fa-bell"></i></div>
+                    <div class="icon-circle"><i class="fa-solid fa-gear"></i></div>
+                </div>
+                <div class="admin-profile">
+                    <div class="admin-info">
+                        <span class="name">Nabila A.</span>
+                        <span class="role">Admin</span>
+                    </div>
+                    <div class="admin-avatar"></div>
+                </div>
+            </header>
+
+            <div class="plan-card">
+                <i class="fa-solid fa-ellipsis-h plan-dots"></i>
+                <span class="plan-title">Your Plan</span>
+                <h2>Free</h2>
+                <ul>
+                    <li><span class="bullet"></span> 50 GB Storage</li>
+                    <li><span class="bullet"></span> Limited Features</li>
+                </ul>
+                <p class="plan-desc">Upgrade to Premium Plan to get more Features & Storage memory</p>
+                <button class="upgrade-btn">Upgrade Plan</button>
+                <div class="plan-bg-orange"></div>
+                <div class="plan-bg-yellow"></div>
+            </div>
+
+            <section class="activity-section">
+                <h3>Lastest Activity</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <!-- <div class="timeline-icon"></div> -->
+                        <div class="timeline-content">
+                            <p><strong>Karen Hope moved task User Research from On Progress to Done</p>
+                            <span class="date">2 March 2021, 13:45 PM</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <!-- <div class="timeline-icon"></div> -->
+                        <div class="timeline-content">
+                            <p>Samantha William add new 4 attached files on task Photo's Assets</p>
+                            <span class="date">2 March 2021, 13:45 PM</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <!-- <div class="timeline-icon"></div> -->
+                        <div class="timeline-content">
+                            <p>Tony Soapinvite you in task Wireframing and Hi-Fidelity</p>
+                            <span class="date">2 March 2021, 13:45 PM</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <!-- <div class="timeline-icon"></div> -->
+                        <div class="timeline-content">
+                            <p>Samantha William created new Task</p>
+                            <span class="date">2 March 2021, 13:45 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </aside>
+
+    </div>
+
+</body>
+</html>
